@@ -1,13 +1,10 @@
-train: ../train/images
-val: ../valid/images
-test: ../test/images
+path: /mnt/c/Users/kth04/semg-classification/concrete-defects
+train: train/images
+val: valid/images
+test: test/images
 
-nc: 10
-names: ['crack1', 'crack2', 'crack3', 'efflorescence1', 'efflorescence2', 'efflorescence3', 'spall_detach1', 'spall_detach2', 'spall_detach3', 'spall_detach4']
-
-roboflow:
-  workspace: ths-workspace-gg1ek
-  project: concrete-defects-od5nj
-  version: 1
-  license: Private
-  url: https://app.roboflow.com/ths-workspace-gg1ek/concrete-defects-od5nj/1
+nc: 3
+names:
+  0: crack
+  1: efflorescence
+  2: spall_detach

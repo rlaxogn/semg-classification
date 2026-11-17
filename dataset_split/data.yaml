@@ -1,7 +1,7 @@
-path: /Users/taehu/semg-auth/data/dataset_clean
+path: dataset_split
 train: images/train
-val: images/val
-test: images/test
+val: images/test
+test: images/test   # 이 부분을 추가해 주세요!
 
 names:
   0: crack
