@@ -1,0 +1,9 @@
+path: /Users/taehu/semg-auth/data/dataset_clean
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: crack
+  1: efflorescence
+  2: spall_detach
